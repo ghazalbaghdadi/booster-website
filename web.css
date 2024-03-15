@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(images/desktop/image-hero.jpg);
+    height: 100vh;
+}
+
+nav{
+    padding: 4rem;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header h2{
+color:aliceblue;
+font-size: 2rem;
+font-family: 'Josefin Sans';
+font-weight: 400;
+}
+
+header ul li{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    margin-left: 2rem;
+    color: rgba(255, 255, 255, 0.835);
+    font-family: "Alata",sans-serif;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.Text-Box h1{
+    max-width: 650px;
+    padding: 2rem;
+    border: 2px solid;
+    font-size: 4.5rem;
+    color: aliceblue;
+    line-height: 1.1;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+}
+
+.Text-Box{
+    width: 86%;
+    max-width: 1114px;
+    margin-left: 5.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#img{
+    display: block;
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+    margin-left: 7rem;
+}
+
+/* .main-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+
+.text-img{
+    width: 600px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 55rem;
+    right: 5rem;
+    padding: 6rem;
+}
+.h2{
+    font-family: 'Josefin Sans';
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.1;
+    font-weight: 300;
+    font-size: 3rem;
+}
+.para{
+    color:  #8c8c8c;
+    font-family: "Alata",sans-serif;
+    line-height: 1.8;
+}
